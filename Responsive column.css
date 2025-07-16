@@ -1,0 +1,27 @@
+body{
+    text-align: center;
+    font-weight: bold;
+    border: 10px;
+    border-radius: 25px;
+    overflow-wrap: break-word;
+  
+
+}
+.container{
+    display: flex;
+    gap: 20px;
+    color: blue;
+    background-color: beige;
+}
+.box{
+    background-color: orange;
+    padding: 20px;
+    flex: 1;
+}
+@media (max-width:768px){
+    .container{
+        flex-direction:column;
+        color: crimson;
+        background-color: antiquewhite;
+    }
+}
